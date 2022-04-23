@@ -18,6 +18,7 @@ Route::get('/', function () {
 });
 */
 Route::get('/', [mainController::class, 'indx']);
+#Route::get('/Logout', [mainController::class, 'logout']);
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
