@@ -49,11 +49,11 @@
             
           </div>
         
-         {{-- @auth
-           <a href="/Lougout" style="text-decoration: none; color:black; font-size:30px; padding-top:6px;">
+          @auth
+           <a href="/Logout" style="text-decoration: none; color:black; font-size:30px; padding-top:6px;">
             <span style="font-size:20px;"> salir</span> <span class="lnr lnr-enter"></span>
             </a>
-          @endauth--}}
+          @endauth
           @guest
           <ul class="nav justify-content-end">
             <li class="nav-item">
